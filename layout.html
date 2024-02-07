@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Label Example with Bootstrap</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Additional custom styles */
+        .label-container {
+            margin-top: 20px;
+        }
+
+        .label {
+            margin-right: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="container mt-4">
+    <div class="form-group">
+        <label for="tagInput">Enter Tag:</label>
+        <input type="text" class="form-control" id="tagInput">
+    </div>
+
+    <button class="btn btn-primary btn-sm" onclick="addLabel()">Add Label</button>
+
+    <div class="label-container mt-3" id="labelContainer">
+        <!-- Labels will appear here -->
+    </div>
+
+    <script>
+        function addLabel() {
+            var tagInput = document.getElementById('tagInput').value;
+            if (tagInput.trim() !== '') {
+                var labelContainer = document.getElementById('labelContainer');
+
+                // Check for duplicate labels
+                if (!isDuplicateLabel(tagInput, labelContainer)) {
+                    // Create a label element with Bootstrap classes
+                    var label = document.createElement('span');
+                    label.className = 'badge badge-primary label';
+                    label.style.backgroundColor = getRandomColor(); // Set random background color
+                    label.innerHTML = tagInput;
+
+                    // Add an event listener to show confirmation dialog
+                    label.addEventListener('click', function() {
+                        var confirmDelete = confirm("Do you want to delete this label?");
+                        if (confirmDelete) {
+                            // Remove the label if the user confirms
+                            label.parentNode.removeChild(label);
+                        }
+                    });
+
+                    // Append the label to the container
+                    labelContainer.appendChild(label);
+
+                    // Clear the input field
+                    document.getElementById('tagInput').value = '';
+                } else {
+                    alert("Label already exists. Please enter a different label.");
+                }
+            }
+        }
+
+        function isDuplicateLabel(tag, container) {
+            var labels = container.getElementsByClassName('label');
+            for (var i = 0; i < labels.length; i++) {
+                if (labels[i].innerHTML.toLowerCase() === tag.toLowerCase()) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+
+    <!-- Include Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

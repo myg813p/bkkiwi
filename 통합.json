@@ -1,0 +1,494 @@
+{
+    "딸기": [
+        {
+            "period": "2022-06",
+            "searchVolume": 60200
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 47000
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 46900
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 58100
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 80400
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 159800
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 200200
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 170200
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 125700
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 132200
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 97800
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 78900
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 63300
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 53500
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 52600
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 50400
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 76600
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 161400
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 190500
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 160400
+        }
+    ],
+    "포도": [
+        {
+            "period": "2022-06",
+            "searchVolume": 39500
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 54600
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 104600
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 164200
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 52500
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 34900
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 30100
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 32200
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 27900
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 32200
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 33200
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 35600
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 34800
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 44000
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 88200
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 95900
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 43700
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 25600
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 22200
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 20200
+        }
+    ],
+    "던전앤드래곤": [
+        {
+            "period": "2022-06",
+            "searchVolume": 5840
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 8480
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 3840
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 2820
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 2640
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 2330
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 3830
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 8030
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 6960
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 174900
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 218900
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 89800
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 18100
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 10600
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 9410
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 7320
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 9340
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 12300
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 9300
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 11000
+        }
+    ],
+    "마이트앤매직": [
+        {
+            "period": "2022-06",
+            "searchVolume": 390
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 560
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 450
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 330
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 190
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 360
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 550
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 650
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 490
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 420
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 380
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 480
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 270
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 290
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 310
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 300
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 270
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 360
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 220
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 290
+        }
+    ],
+    "슈퍼마리오": [
+        {
+            "period": "2022-06",
+            "searchVolume": 14500
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 14200
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 15800
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 16800
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 23800
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 15600
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 20300
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 20100
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 17100
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 22700
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 311300
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 420200
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 86200
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 37800
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 27700
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 25200
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 39700
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 35500
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 30100
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 23600
+        }
+    ],
+    "수박": [
+        {
+            "period": "2022-06",
+            "searchVolume": 196100
+        },
+        {
+            "period": "2022-07",
+            "searchVolume": 189800
+        },
+        {
+            "period": "2022-08",
+            "searchVolume": 105500
+        },
+        {
+            "period": "2022-09",
+            "searchVolume": 38000
+        },
+        {
+            "period": "2022-10",
+            "searchVolume": 27600
+        },
+        {
+            "period": "2022-11",
+            "searchVolume": 26700
+        },
+        {
+            "period": "2022-12",
+            "searchVolume": 27800
+        },
+        {
+            "period": "2023-01",
+            "searchVolume": 32400
+        },
+        {
+            "period": "2023-02",
+            "searchVolume": 52100
+        },
+        {
+            "period": "2023-03",
+            "searchVolume": 65600
+        },
+        {
+            "period": "2023-04",
+            "searchVolume": 66500
+        },
+        {
+            "period": "2023-05",
+            "searchVolume": 121100
+        },
+        {
+            "period": "2023-06",
+            "searchVolume": 148300
+        },
+        {
+            "period": "2023-07",
+            "searchVolume": 139300
+        },
+        {
+            "period": "2023-08",
+            "searchVolume": 137700
+        },
+        {
+            "period": "2023-09",
+            "searchVolume": 56200
+        },
+        {
+            "period": "2023-10",
+            "searchVolume": 31000
+        },
+        {
+            "period": "2023-11",
+            "searchVolume": 27600
+        },
+        {
+            "period": "2023-12",
+            "searchVolume": 25600
+        },
+        {
+            "period": "2024-01",
+            "searchVolume": 30100
+        }
+    ]
+}
